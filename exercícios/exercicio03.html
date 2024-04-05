@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <header>
+        <h1>3. Exercício de Textarea e Tipos de Input:</h1>
+    </header>
+    
+    <hr>
+    
+    <main>
+        <section>
+            <h2>Feedback</h2>
+        </section>
+        <section>
+            <form method="post">
+                <label>Deixe um comentário com sua experiência: </label>
+                <br><br>
+                <textarea name="feedback" id="feedback" cols="80" rows="5"></textarea>
+                <br><br>
+                <label>Avalie sua experiência de 0 a 10: </label>
+                <input type="number" name="avaliacao" id="avaliacao" step="1" min="0" max="10">
+                <br><br>
+                <label>Data da Avaliação: </label>
+                <input type="date" name="data" id="data">
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <center>
+            &copy;Formulário de Avaliação
+        </center>
+    </footer>
+</body>
+</html>
